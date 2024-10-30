@@ -12,7 +12,6 @@ void main() {
       fontFamily: "Source Sans Pro",
       scaffoldBackgroundColor: const Color(primaryColor),
       appBarTheme: const AppBarTheme(backgroundColor: Color(primaryColor)),
-      useMaterial3: false,
     ),
     home: const BMI(),
   ));
