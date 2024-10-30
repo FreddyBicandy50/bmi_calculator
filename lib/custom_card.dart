@@ -10,10 +10,8 @@ Container customCard({getColor, required List<Widget> getWidgets}) {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
       child: Padding(
         padding: const EdgeInsets.all(20.0),
-        child: Expanded(
-          child: Column(
-            children: getWidgets,
-          ),
+        child: Column(
+          children: getWidgets,
         ),
       ),
     ),
@@ -26,9 +24,7 @@ Card customButton({getColor,getButton}) {
     color:  Color(getColor),
     shape: const CircleBorder(),
     elevation: 16.0,
-    child: Expanded(
-      child: getButton,
-    ),
+    child: getButton,
   );
 }
 
